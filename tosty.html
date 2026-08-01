@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<title>Тосты с авокадо и слабосолёной рыбой — для Женечки</title>
+<style>
+  :root{
+    --bg:#fdf8f1; --ink:#33302a; --muted:#8a8175;
+    --card:#ffffff; --accent:#c2703d; --accent-soft:#f9ead9;
+    --green:#5b7a3f; --green-soft:#eef3e4; --line:#f0e6d8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;
+    padding:24px 16px 48px;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+  .back{display:inline-block;margin-bottom:16px;color:var(--accent);text-decoration:none;font-size:14px;font-weight:600}
+  header{text-align:center;margin-bottom:28px}
+  header .badge{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--accent-soft);color:var(--accent);
+    font-weight:600;font-size:13px;padding:6px 14px;border-radius:999px;
+    margin-bottom:14px;
+  }
+  header h1{font-size:26px;line-height:1.3;margin-bottom:8px}
+  header p{color:var(--muted);font-size:15px;max-width:520px;margin:0 auto}
+  .hero{
+    background:linear-gradient(135deg,#fdeeda,#f6e3c8);
+    border:1px solid #f0ddc0;border-radius:16px;
+    padding:24px 22px;margin-bottom:18px;
+    display:flex;align-items:center;gap:20px;flex-wrap:wrap;justify-content:center;
+  }
+  .hero svg{flex:none}
+  .meta{
+    display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:18px;
+  }
+  .meta div{
+    background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:10px 16px;font-size:13.5px;text-align:center;min-width:130px;
+  }
+  .meta b{display:block;font-size:16px;color:var(--accent)}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:20px 22px;margin-bottom:18px;
+    box-shadow:0 1px 3px rgba(90,70,40,.06);
+  }
+  .card h2{font-size:17px;display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .card h2 svg{flex:none}
+  table{width:100%;border-collapse:collapse;font-size:14.5px}
+  th{
+    text-align:left;color:var(--muted);font-weight:600;font-size:12px;
+    text-transform:uppercase;letter-spacing:.04em;
+    padding:8px 8px;border-bottom:2px solid var(--line);
+  }
+  td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  .steps{list-style:none;counter-reset:step}
+  .steps li{
+    counter-increment:step;position:relative;
+    padding:12px 0 12px 58px;border-bottom:1px solid var(--line);
+    font-size:14.5px;
+  }
+  .steps li:last-child{border-bottom:none}
+  .steps li::before{
+    content:counter(step);
+    position:absolute;left:0;top:10px;
+    width:38px;height:38px;border-radius:50%;
+    background:var(--accent-soft);color:var(--accent);
+    font-weight:700;font-size:16px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .steps b{color:var(--accent)}
+  .joke{
+    background:#fffdf8;border:1px dashed #e3cfa8;border-radius:14px;
+    padding:16px 18px;margin-bottom:18px;font-size:14.5px;
+    display:flex;gap:14px;align-items:flex-start;
+  }
+  .joke svg{flex:none;margin-top:2px}
+  .joke i{color:var(--muted)}
+  .verdict{
+    background:linear-gradient(135deg,#f8ecdd,#fdf5ea);
+    border:1px solid #eeddbe;
+  }
+  .verdict h2{color:var(--accent)}
+  .verdict ul{list-style:none;margin-top:4px}
+  .verdict li{padding:7px 0 7px 30px;position:relative;font-size:14.5px}
+  .verdict li::before{
+    content:"";position:absolute;left:4px;top:14px;width:8px;height:8px;
+    border-radius:50%;background:var(--accent);
+  }
+  .note{color:var(--muted);font-size:13px;margin-top:12px}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:22px}
+  @media(max-width:560px){
+    header h1{font-size:22px}
+    .card{padding:16px 14px}
+    .steps li{padding-left:50px}
+  }
+
+  body{font-family:'Inter',-apple-system,'Segoe UI',Roboto,sans-serif}
+  header h1,.card h2{font-family:'Caveat',cursive}
+  header h1{font-size:38px;font-weight:700}
+  .card h2{font-size:24px;font-weight:600}
+  .hero img{width:220px;max-width:60%;border-radius:18px;box-shadow:0 10px 26px rgba(110,90,60,.15)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="index.html">&larr; Все шпаргалки</a>
+
+<header>
+  <div class="badge">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+    Проверено на кухне
+  </div>
+  <h1>Тосты с авокадо и слабосолёной рыбой</h1>
+  <p>Женечка, это завтрак уровня «дорогая кофейня», только дешевле в пять раз и без очереди.</p>
+</header>
+
+<div class="hero">
+  <img src="https://filebin.net/f4jimg1785579095/tosty.jpg" alt="Тост с авокадо и лососем" loading="lazy">
+  <div style="max-width:340px;font-size:14.5px">
+    <b>Формула счастья:</b> хрустящий тост + размятый вилкой авокадо + перец + ломтик рыбы + капля лимона. Пять движений — и ты шеф.
+  </div>
+</div>
+
+<div class="meta">
+  <div><b>10 минут</b>время готовки</div>
+  <div><b>2 тоста</b>порция</div>
+  <div><b>~480 ккал</b>на порцию</div>
+  <div><b>1 вилка</b>вся техника</div>
+</div>
+
+<div class="card">
+  <h2>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 002-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 00-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
+    Что понадобится
+  </h2>
+  <table>
+    <tr><th>Ингредиент</th><th>Сколько</th><th>Заметка</th></tr>
+    <tr><td><b>Хлеб для тостов</b></td><td>2 ломтика</td><td>Бородинский тоже пойдёт, но классика — тостерный</td></tr>
+    <tr><td><b>Авокадо</b></td><td>1 спелый</td><td>Спелый = слегка пружинит под пальцем. Каменный не бери</td></tr>
+    <tr><td><b>Слабосолёная рыба</b></td><td>2–4 ломтика</td><td>Сёмга, форель — что нашлось в холодильнике</td></tr>
+    <tr><td><b>Лимон</b></td><td>долька</td><td>Свежий, не из бутылки — тут важно</td></tr>
+    <tr><td><b>Чёрный перец</b></td><td>щепотка</td><td>Свежемолотый — вкус в два раза честнее</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg>
+    Как готовить
+  </h2>
+  <ol class="steps">
+    <li><b>Тост.</b> Ломтики хлеба — в тостер до золотистого. Хруст должен быть слышен в соседней комнате.</li>
+    <li><b>Авокадо.</b> Разрезать, вынуть косточку, прямо в кожуре размять мякоть вилкой и выложить на тост. Не в пюре — пусть останутся кусочки, так честнее.</li>
+    <li><b>Перец.</b> Щепотка сверху. Можно чуть соли, но рыба солёная — не увлекайся.</li>
+    <li><b>Рыба.</b> Ломтик слабосолёной рыбы — королевой на трон из авокадо.</li>
+    <li><b>Лимон.</b> Сбрызнуть свежим лимоном. Это не украшение, а кнопка «включить вкус».</li>
+  </ol>
+</div>
+
+<div class="joke">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+  <div><i>В кофейне это называется «авокадо-тост с сёмгой» и стоит 650 рублей. У нас это называется «завтрак» и стоит десять минут, включая мытьё одной вилки.</i></div>
+</div>
+
+<div class="joke">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+  <div><i>Главный секрет блюда — поймать авокадо в тот единственный день, когда он спелый. Вчера был камень, завтра будет каша. Сегодня — твой день.</i></div>
+</div>
+
+<div class="card">
+  <h2>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 100 18 9 9 0 000-18z"/><path d="M12 7v5l3 3"/></svg>
+    КБЖУ порции — от нормы Женечки (1500 ккал/день)
+  </h2>
+  <table>
+    <tr><th></th><th>На порцию (2 тоста)</th><th>Дневная норма</th><th>% от нормы</th></tr>
+    <tr><td><b>Калории</b></td><td>~480 ккал</td><td>1500 ккал</td><td class="pct" style="color:var(--accent)">32%</td></tr>
+    <tr><td><b>Белки</b></td><td>~17 г</td><td>~75 г</td><td class="pct" style="color:var(--accent)">23%</td></tr>
+    <tr><td><b>Жиры</b></td><td>~29 г</td><td>~50 г</td><td class="pct" style="color:var(--accent)">58%</td></tr>
+    <tr><td><b>Углеводы</b></td><td>~43 г</td><td>~170 г</td><td class="pct" style="color:var(--accent)">25%</td></tr>
+  </table>
+  <p class="note">Жиры тут почти все «хорошие» — из авокадо и рыбы (омега-3), а не из сливочного масла. Такой завтрак — треть дневного рациона, и это честная треть: сытость гарантирована до обеда. Цифры примерные: зависят от размера авокадо и щедрости рыбного ломтика.</p>
+</div>
+
+<div class="card verdict">
+  <h2>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c2703d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 00-7.8 7.8l8.8 8.8 8.8-8.8a5.5 5.5 0 000-7.8z"/></svg>
+    Почему это хороший завтрак
+  </h2>
+  <ul>
+    <li>Рыба — белок и омега-3, мозг скажет спасибо ещё до обеда.</li>
+    <li>Авокадо — правильные жиры, сытость до обеда без булок.</li>
+    <li>Никакой жарки: тостер, вилка, нож — вся кухонная техника.</li>
+    <li>Выглядит как из ресторана, моется за минуту.</li>
+    <li>Идёт и к кофе, и к чаю, и к Сенежской с мятой.</li>
+  </ul>
+</div>
+
+<footer>Сделано с заботой · проверено: вилка справляется</footer>
+
+</div>
+</body>
+</html>
